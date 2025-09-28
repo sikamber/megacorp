@@ -1,0 +1,2 @@
+last_run=$(history | cut -c 8- | grep -v "history" | grep "bootdev run" | tail -1)
+$last_run -s
